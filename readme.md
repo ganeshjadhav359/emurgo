@@ -14,4 +14,5 @@
     2. It keeps the articles in cache based on query param
 
 ## How to run application
-    1. Simply do `npm run start`
+    1. npm install
+    2. npm run start
