@@ -13,6 +13,9 @@
     1. Also used cache based to keep it in local cache so we do not have to query the api.
     2. It keeps the articles in cache based on query param
 
+## Few ignored things
+    1. For simplicity i have kept api key in constant file it self.
+    2. It should be added as ENV
 ## How to run application
     1. npm install
     2. npm run start
