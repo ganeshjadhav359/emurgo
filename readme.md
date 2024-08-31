@@ -1,7 +1,7 @@
 # New Api
-## There three endpoints as below
+## There are three endpoints as below
     1. http://localhost:8080/article?max=10
-        1. it fetches top N articles max limit it 100 by deafult, and min limit is 10 if values not passed
+        1. It fetches top N articles max limit is 100 by deafult, and min limit is 10 if value not passed
         2. We can pass max as query param
     2. http://localhost:8080/article/search/title?title=Kevin Thelwell explains
         1. This is the endpoint to search articles by title
