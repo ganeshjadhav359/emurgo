@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DEFAULT_ARTICLES = exports.TITLE_CACHE_KEY = exports.KEYWORD_CACHE_KEY = exports.TOP_CACHE_KEY = exports.API_KEY = exports.BASE_URL = exports.PORT = void 0;
+exports.PORT = 8080;
+exports.BASE_URL = "https://gnews.io/api/v4/";
+exports.API_KEY = "58b16ef00614e4462495d3db417d3bc7";
+exports.TOP_CACHE_KEY = "top-n-key";
+exports.KEYWORD_CACHE_KEY = "keyword-n-key-";
+exports.TITLE_CACHE_KEY = "title-n-key-";
+exports.DEFAULT_ARTICLES = 10;
