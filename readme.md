@@ -21,7 +21,7 @@
     2. npm run start
 
 ## Run using docker
-    1. Build image with below command for need to be in project directory
+    1. Build image with below command. You need to be in project directory to succefully build image or mention the project path
         1. docker build -t emurgo:1.0 .
     2. Once image is built use below command to run image in docker in detach mode
         1. docker run -d -p8080:8080 emurgo:1.0
